@@ -19,7 +19,8 @@ body {
     color: white;
     text-align: center;
     height: 50vh;
-    padding: 25vh;
+    width: 50vw;
+    padding: 25vh 25vw;
     font-size: 2em;
   }
 
