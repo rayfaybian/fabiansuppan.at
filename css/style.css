@@ -1,5 +1,5 @@
 body {
-  font-family: fantasy, sans-serif;
+  font-family: Helvetica, sans-serif, sans-serif;
   padding: 0;
   margin: 0;
   font-size: 10px;
@@ -26,6 +26,7 @@ body {
 
 .cat img {
   height: 40vh;
+  width: 31vh;
 }
 
 
