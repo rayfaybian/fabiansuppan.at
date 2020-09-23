@@ -5,22 +5,26 @@ body {
   font-size: 10px;
 }
 
-body div {
-  background: rgb(2, 0, 36);
-
-  background: linear-gradient(
-    45deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 23%,
-    rgba(0, 212, 255, 1) 100%
-  );
-
+.container {
+    background: rgb(2, 0, 36);
   
+    background: linear-gradient(
+      45deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 23%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  
+    margin: 0%;
+    color: white;
+    text-align: center;
+    height: 50vh;
+    padding: 25vh;
+    font-size: 2em;
+  }
 
-  margin: 0%;
-  color: white;
-  text-align: center;
-  height: 50vh;
-  padding-top: 50vh;
-  font-size: 2em;
+.cat img {
+  height: 40vh;
 }
+
+
