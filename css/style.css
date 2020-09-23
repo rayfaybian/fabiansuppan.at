@@ -6,27 +6,37 @@ body {
 }
 
 .container {
-    background: rgb(2, 0, 36);
-  
-    background: linear-gradient(
-      45deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(9, 9, 121, 1) 23%,
-      rgba(0, 212, 255, 1) 100%
-    );
-  
-    margin: 0%;
-    color: white;
-    text-align: center;
-    height: 50vh;
-    width: 50vw;
-    padding: 25vh 25vw;
-    font-size: 2em;
-  }
+  background: rgb(2, 0, 36);
 
-.cat img {
-  height: 40vh;
-  width: 31vh;
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 23%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  margin: 0%;
+  color: white;
+  text-align: center;
+  height: 50vh;
+  width: 50vw;
+  padding: 25vh 25vw;
 }
 
+.txt-box{
+    font-size: 2em;
+}
 
+.cat img {
+  height: 30vh;
+}
+
+@media only screen and (min-width: 600px){
+    .cat img{
+        height: 50vh;
+    }
+
+    .txt-box{
+        font-size: 3em;
+    }
+}
