@@ -1,0 +1,183 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  max-height: 100vh;
+}
+
+.frame {
+  background-color: grey;
+  margin: 15px auto 0 auto;
+  padding: 20px 10px;
+  width: 420px;
+  border-radius: 15px;
+}
+.title {
+  background-color: black;
+
+  color: rgba(255, 126, 0, 0.9242685025817556);
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+
+  margin: auto auto 20px;
+  width: 400px;
+  height: 75px;
+
+  border-radius: 15px;
+  border: none;
+  border-color: rgba(255, 126, 0, 0.9242685025817556);
+}
+
+.calculator {
+  background-color: none;
+
+  height: auto;
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.calculator__display {
+  background-color: black;
+
+  color: white;
+  font-size: 4rem;
+  text-align: right;
+
+  height: 75px;
+  padding-right: 10px;
+
+  border-radius: 15px 15px 0 0;
+}
+
+.calculator__keys {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas:
+    "a b c d"
+    "e f g h"
+    "i j k h"
+    "l m n h"
+    "o p q h";
+}
+
+button {
+  background-color: whitesmoke;
+
+  font-size: 2rem;
+
+  width: 100px;
+  height: 75px;
+
+  border: solid;
+  border-width: 1px;
+  border-color: darkgrey;
+
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 80%;
+}
+
+.key-operator {
+  background-color: lightgray;
+}
+
+.is-pressed {
+  background-color: black;
+  color: rgba(255, 126, 0, 0.9242685025817556);
+  border-color: rgba(255, 126, 0, 0.9242685025817556);
+}
+
+.error {
+    text-align: center;
+    color: red;
+    font-size: 3rem;
+    padding-right: 0;
+}
+
+.a {
+  grid-area: a;
+  background-color: black;
+}
+
+.b {
+  grid-area: b;
+}
+.c {
+  grid-area: c;
+}
+.d {
+  grid-area: d;
+}
+.e {
+  grid-area: e;
+}
+.f {
+  grid-area: f;
+}
+.g {
+  grid-area: g;
+}
+
+.h {
+  grid-area: h;
+  border: none;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 126, 0, 0.9242685025817556) 0%,
+    rgba(255, 100, 0, 1) 100%
+  );
+  height: auto;
+  border-bottom-right-radius: 15px;
+}
+
+.i {
+  grid-area: i;
+}
+.j {
+  grid-area: j;
+}
+.k {
+  grid-area: k;
+}
+.l {
+  grid-area: l;
+}
+.m {
+  grid-area: m;
+}
+.n {
+  grid-area: n;
+}
+.o {
+  grid-area: o;
+  border-bottom-left-radius: 15px;
+}
+.p {
+  grid-area: p;
+}
+.q {
+  grid-area: q;
+}
+
+.is-pressed:hover {
+  opacity: 100%;
+}
+
+footer {
+  color: rgba(255, 126, 0, 0.9242685025817556);
+  text-align: center;
+  font-size: 12px;
+
+  margin-top: 15px;
+}
+
+footer a:visited{
+  color: rgba(255, 126, 0, 0.9242685025817556)
+}
+
+footer a:hover{
+  color: white;
+}
